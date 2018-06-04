@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="webpub">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ICSE 2018 Co-Located Events</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <!--<link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">-->
+
+    <!-- Custom CSS -->
+    <link href="css/utils.css" rel="stylesheet">
+    <!--<link href="vendor/sb-admin/css/sb-admin-2.css" rel="stylesheet">-->
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- App styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- compiled scripts -->
+    <script type="text/javascript" src="dist/js/vendor.js"></script>
+    <script type="text/javascript" src="data/config.js"></script>
+    <script type="text/javascript" src="data/data.js"></script>
+    <script type="text/javascript" src="data/additional-pages.js"></script>
+</head>
+<body>
+
+<webpub-notifications></webpub-notifications>
+
+<div class="container-fluid">
+    <div class="row p0">
+        <div class="col-md-12 p0">
+            <img data-ui-sref="home" class="img-responsive" src="content/images/default-banner.jpg" style="width: 100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 p0">
+            <nav class="navmenu navmenu-default radius-clear" data-ng-controller="navController as navCtrl">
+                <ul class="nav navmenu-nav">
+                    <li data-ng-repeat="conference in navCtrl.conferences"><a data-ui-sref="toc({index: $index})">{{conference.acronym}} {{conference.year}}</a></li>
+                    <li data-ng-repeat="extraPage in navCtrl.additionalPages">
+                        <a data-ui-sref="extra-page({pageName: extraPage.pageName, location: extraPage.fileLocation})">{{extraPage.pageName}}</a>
+                    </li>
+                    <li><a data-ui-sref="author-index">Author Index</a></li>
+                    <li data-ng-if="navCtrl.config.enableAffiliationIndex"><a data-ui-sref="affiliation-index">Affiliation Index</a></li>
+                    <li><a data-ui-sref="search">Search</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-10">
+            <ui-view></ui-view>
+        </div>
+    </div>
+</div>
+
+<!-- Application -->
+<script type="text/javascript" src="dist/js/webpub-app.js"></script>
+
+
+</body>
+</html>

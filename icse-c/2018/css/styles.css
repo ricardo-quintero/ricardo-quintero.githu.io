@@ -1,0 +1,82 @@
+/* Notifications */
+.notifications {
+    z-index: 100000000;
+    opacity: .85;
+    position: fixed;
+    top: 40px;
+    left: 35%;
+}
+
+.notifications .notification {
+    border: 1px solid #CFDBE2;
+    border-radius: 4px;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.notifications .danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.notifications .warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.notifications .success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+/* Notification animations */
+.notification.fading.ng-move{
+    opacity: 0;
+    -webkit-transition: .25s linear all; /* Safari/Chrome */
+    transition: .25s linear all; /* All other modern browsers and IE10+ */
+}
+
+.notification.fading.ng-move.ng-move-active {
+    opacity: 1;
+}
+
+.notification.fading.ng-leave {
+    opacity: 1;
+    -webkit-transition: .25s linear all; /* Safari/Chrome */
+    transition: .25s linear all; /* All other modern browsers and IE10+ */
+}
+
+.notification.fading.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+
+.notification:hover {
+    opacity: .4;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.navmenu {
+    width: initial;
+}
+
+.search-result {
+    max-height: 80px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 20px;
+}
+
+h5,
+.h5 {
+    font-size: 16px;
+}
