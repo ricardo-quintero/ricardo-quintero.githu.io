@@ -1,0 +1,114 @@
+\PassOptionsToPackage{bookmarks=false}{hyperref}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+\usepackage{todonotes}
+
+\usepackage{booktabs} % For formal tables
+
+\usepackage[acronym]{glossaries}
+\usepackage{balance}
+\usepackage{xcolor}
+\usepackage{textcomp}
+%Graphics
+\usepackage{graphicx}
+\usepackage{dblfloatfix} % http://tex.stackexchange.com/a/235647
+\usepackage{tikz}
+\usetikzlibrary{arrows, decorations.markings, patterns, shapes, shapes.geometric}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.text}
+\tikzstyle{vecArrow} = [thick, decoration={markings,mark=at position
+	1 with {\arrow[thick]{open triangle 60}}},
+double distance=1.4pt, shorten >= 5.5pt,
+preaction = {decorate},
+postaction = {draw,line width=1.4pt, white,shorten >= 4.5pt}]
+
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main} 
+
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+\tikzset{
+	slope/.code={\edef\slope{#1}},
+	slope/.default=0.9, slope
+}
+
+\makeatletter
+
+\pgfdeclarepatternformonly{stripes}{\pgfpoint{0cm}{0cm}}{\pgfpoint{1cm}{1cm}}{\pgfpoint{1cm}{1cm}} {
+	\foreach \i in {0.1, 0.3,...,0.9} {
+		\pgfpathmoveto{\pgfpoint{\i cm}{0cm}}
+		\pgfpathlineto{\pgfpoint{1cm}{1cm - \i cm}}
+		\pgfpathlineto{\pgfpoint{1cm}{1cm - \i cm+ 0.1cm}}
+		\pgfpathlineto{\pgfpoint{\i cm - 0.1cm}{0cm}}
+		\pgfpathclose%
+		\pgfusepath{fill}
+		\pgfpathmoveto{\pgfpoint{0cm}{\i cm}}
+		\pgfpathlineto{\pgfpoint{1cm - \i cm}{1cm}}
+		\pgfpathlineto{\pgfpoint{1cm - \i cm - 0.1cm}{1cm}}
+		\pgfpathlineto{\pgfpoint{0cm}{\i cm + 0.1cm}}
+		\pgfpathclose%
+		\pgfusepath{fill}
+	}
+}
+
+\pgfdeclarepatternformonly[\tikz@pattern@color,\slope]{slant lines}
+{\pgfpoint{-.1mm/\slope}{-.1mm}}
+{\pgfpoint{1.1mm/\slope}{1.1mm}}
+{\pgfpoint{1mm/\slope}{1mm}}{
+	\pgfsetlinewidth{0.4pt}
+	\pgfpathmoveto{\pgfpoint{-.1mm/\slope}{-.1mm}}
+	\pgfpathlineto{\pgfpoint{1.1mm/\slope}{1.1mm}}
+	\pgfsetstrokecolor{\tikz@pattern@color}
+	\pgfusepath{stroke}
+}
+
+\makeatother
+
+
+
+\usepackage{xcolor}
+\definecolor{green200}{HTML}{a5d6a7}
+\definecolor{green800}{HTML}{2e7d32}
+\definecolor{orange200}{HTML}{ffcc80}
+\definecolor{orange800}{HTML}{ef6c00}
+\definecolor{red800}{HTML}{c62828}
+\definecolor{blue800}{HTML}{1565c0}
+\definecolor{gray800}{HTML}{424242}
+\definecolor{yellow800}{HTML}{F9A825}
+
+\usepackage{listings}
+\lstset{
+	basicstyle=\scriptsize,
+	breaklines=true,
+	keywordstyle=\bfseries\color{green800},
+	stringstyle=\bfseries\color{orange800},
+	showstringspaces=false,
+	commentstyle=\bfseries\color{blue800}
+}
+
+
+% Copyright
+%\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+\copyrightyear{2018} 
+\acmYear{2018} 
+\setcopyright{acmcopyright}
+\acmConference[SER\&IP'18]{SER\&IP'18:IEEE/ACM 5th International Workshop on Software Engineering Research and Industrial Practice}{May 29, 2018}{Gothenburg, Sweden}
+\acmBooktitle{SER\&IP'18: SER\&IP'18:IEEE/ACM 5th International Workshop on Software Engineering Research and Industrial Practice, May 29, 2018, Gothenburg, Sweden}
+\acmPrice{15.00}
+\acmDOI{10.1145/3195546.3195549}
+\acmISBN{978-1-4503-5744-9/18/05}
+
+% Acronyms
+\input{Acronyms}
