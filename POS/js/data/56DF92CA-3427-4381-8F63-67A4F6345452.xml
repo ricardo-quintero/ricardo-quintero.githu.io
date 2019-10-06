@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "Inicio", "EARoot/EA1/EA3.htm", "34.png", "", "", "{E66C894B-435B-42ca-AA9D-0BE74C0B5BEA}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Modelo del Negocio", "EARoot/EA2/EA5.htm", "34.png", "", "", "{53AB8FDC-E025-4586-9529-B2660030935D}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Modelo de Requisitos", "EARoot/EA3/EA32.htm", "30.png", "", "", "{DB2A3125-E2C9-4a35-A50A-B729AEE2D00C}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Modelo de Diseño", "EARoot/EA4/EA136.htm", "34.png", "", "", "{5E6EBD42-913A-4afb-A524-55FA98A81F51}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Modelo de Componentes", "EARoot/EA5/EA288.htm", "32.png", "", "", "{6FBFF17A-EC5E-4f0b-A0E5-C48A96E87644}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Modelo de Implementacion", "EARoot/EA6/EA348.htm", "34.png", "", "", "{2A16D9C7-8E9E-43eb-BA38-A7BA52EDB284}", "Package");
+tocTab[tocTab.length] = new Array("0.7", "1", "Modelo de Despliegue", "EARoot/EA7/EA371.htm", "33.png", "", "", "{E77000B7-6508-4632-AC82-858071E39C8D}", "Package");

@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.5.1.3:1", "", "Technical Services", "EARoot/EA5/EA1/EA3/EA321.htm", "178.png", "55", "0", "", "Component diagram0","{EAE238F3-2158-4e17-8C4C-BE612C6B7F66}");
+tocTab[tocTab.length] = new Array("0.5.1.3:2", "", "«interface» ILogging", "EARoot/EA5/EA1/EA3/EA324.htm", "8.png", "E298", "0", "", "Interface0","{C3333B8C-80FF-4f27-BB80-4659A5E38076}");
+tocTab[tocTab.length] = new Array("0.5.1.3:3", "", "«interface» IPersistence", "EARoot/EA5/EA1/EA3/EA325.htm", "8.png", "E297", "0", "", "Interface0","{57F0069F-D227-4c17-824C-1E3BB9ED3310}");
+tocTab[tocTab.length] = new Array("0.5.1.3:4", "", "«interface» IRulesEngine", "EARoot/EA5/EA1/EA3/EA326.htm", "8.png", "E299", "0", "", "Interface0","{6535194A-A421-4227-A0F2-F4C3989E6DED}");
+tocTab[tocTab.length] = new Array("0.5.1.3:5", "", "Logging", "EARoot/EA5/EA1/EA3/EA327.htm", "10.png", "E286", "0", "", "Component0","{C4FE95CC-928F-4d80-BADD-0A03A475C7A4}");
+tocTab[tocTab.length] = new Array("0.5.1.3:6", "", "Persistence", "EARoot/EA5/EA1/EA3/EA328.htm", "10.png", "E285", "0", "", "Component0","{04D2CA5E-81E0-4ca4-AA74-8293895AEEFF}");
+tocTab[tocTab.length] = new Array("0.5.1.3:7", "", "Rules Engine", "EARoot/EA5/EA1/EA3/EA329.htm", "10.png", "E287", "0", "", "Component0","{50D8E3B6-0CB4-4eae-AFC0-0836F30DA7C5}");
+tocTab[tocTab.length] = new Array("0.5.1.3:8", "", "IPersistence: IPersistence", "EARoot/EA5/EA1/EA3/EA330.htm", "112.png", "E300", "E285", "", "ProvidedInterface0","{31E50CE7-7AE9-448b-9EE2-E165A7FF2E78}");
+tocTab[tocTab.length] = new Array("0.5.1.3:9", "", "ILogging: ILogging", "EARoot/EA5/EA1/EA3/EA331.htm", "112.png", "E301", "E286", "", "ProvidedInterface0","{0114E2BD-5453-48ce-8943-BB813EC29EA2}");
+tocTab[tocTab.length] = new Array("0.5.1.3:10", "", "IRulesEngine: IRulesEngine", "EARoot/EA5/EA1/EA3/EA332.htm", "112.png", "E302", "E287", "", "ProvidedInterface0","{85D50FB9-A23A-4399-B9E1-4F26B83D3E91}");

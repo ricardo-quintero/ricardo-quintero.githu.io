@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3.5.1:1", "", "Computaciones", "EARoot/EA3/EA5/EA1/EA125.htm", "188.png", "79", "0", "", "Custom diagram0","{05A53F83-3BF4-4564-A9A4-B55278818B78}");
+tocTab[tocTab.length] = new Array("0.3.5.1:2", "", "«Bus-Rule» RN01-Se aplicará un descuento del 10% a todos los estudiantes del Tec", "EARoot/EA3/EA5/EA1/EA128.htm", "19.png", "E31", "0", "", "Requirement0","{4558CBA1-5028-4d00-A08C-327961D937BF}");
+tocTab[tocTab.length] = new Array("0.3.5.1:3", "", "«Bus-Rule» RN02-Se aplicará un descuento del 15% en compras mayores a 1000 pesos", "EARoot/EA3/EA5/EA1/EA129.htm", "19.png", "E32", "0", "", "Requirement0","{64D989E3-49CC-43dd-BC09-C9762E49AB85}");

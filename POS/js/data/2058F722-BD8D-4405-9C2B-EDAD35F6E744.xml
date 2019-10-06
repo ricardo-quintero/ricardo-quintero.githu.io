@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.5.1.2:1", "", "Dominio", "EARoot/EA5/EA1/EA2/EA306.htm", "178.png", "54", "0", "", "Component diagram0","{F0040AE3-ECCC-4356-A7CD-16AF4FB89F78}");
+tocTab[tocTab.length] = new Array("0.5.1.2:2", "", "«interface» IPayment", "EARoot/EA5/EA1/EA2/EA309.htm", "8.png", "E304", "0", "", "Interface0","{DFBEEB99-F048-4325-AEEB-87C8C0B412BD}");
+tocTab[tocTab.length] = new Array("0.5.1.2:3", "", "«interface» ISales", "EARoot/EA5/EA1/EA2/EA310.htm", "8.png", "E303", "0", "", "Interface0","{3F9D22A6-9DC9-4703-8CAF-6B735D7B66FF}");
+tocTab[tocTab.length] = new Array("0.5.1.2:4", "", "«interface» ITaxes", "EARoot/EA5/EA1/EA2/EA311.htm", "8.png", "E305", "0", "", "Interface0","{A3B8545F-F26F-4468-A43C-C24765E1144E}");
+tocTab[tocTab.length] = new Array("0.5.1.2:5", "", "Payment", "EARoot/EA5/EA1/EA2/EA312.htm", "10.png", "E283", "0", "", "Component0","{72306170-2AC1-4d39-AD08-930F108A0AFE}");
+tocTab[tocTab.length] = new Array("0.5.1.2:6", "", "Sales", "EARoot/EA5/EA1/EA2/EA313.htm", "10.png", "E282", "0", "", "Component0","{FB299B77-F21F-4142-AE4B-33E0A54B7701}");
+tocTab[tocTab.length] = new Array("0.5.1.2:7", "", "Taxes", "EARoot/EA5/EA1/EA2/EA314.htm", "10.png", "E284", "0", "", "Component0","{3BB4B3E6-44FF-40bc-B5FA-439295987099}");
+tocTab[tocTab.length] = new Array("0.5.1.2:8", "", "IPersistence: IPersistence", "EARoot/EA5/EA1/EA2/EA315.htm", "111.png", "E307", "E282", "", "RequiredInterface0","{B87D7FC5-4406-4798-B08E-716FE7CE4493}");
+tocTab[tocTab.length] = new Array("0.5.1.2:9", "", "ISales: ISales", "EARoot/EA5/EA1/EA2/EA316.htm", "112.png", "E306", "E282", "", "ProvidedInterface0","{3BF57B55-B2E7-49e7-BB5F-D157F83E5A15}");
+tocTab[tocTab.length] = new Array("0.5.1.2:10", "", "IPayment: IPayment", "EARoot/EA5/EA1/EA2/EA317.htm", "112.png", "E308", "E283", "", "ProvidedInterface0","{26B7B7D5-1837-443f-A4EA-D6A878C52233}");
+tocTab[tocTab.length] = new Array("0.5.1.2:11", "", "IPersistence: IPersistence", "EARoot/EA5/EA1/EA2/EA318.htm", "111.png", "E309", "E283", "", "RequiredInterface0","{1318B661-1CED-4ba3-A21A-9912079637A5}");
+tocTab[tocTab.length] = new Array("0.5.1.2:12", "", "IPersistence: IPersistence", "EARoot/EA5/EA1/EA2/EA319.htm", "111.png", "E311", "E284", "", "RequiredInterface0","{1806CEA1-E144-4add-B537-F8CF774A3D0D}");
+tocTab[tocTab.length] = new Array("0.5.1.2:13", "", "ITaxes: ITaxes", "EARoot/EA5/EA1/EA2/EA320.htm", "112.png", "E310", "E284", "", "ProvidedInterface0","{3023264E-BA03-469d-8095-940943842EB7}");

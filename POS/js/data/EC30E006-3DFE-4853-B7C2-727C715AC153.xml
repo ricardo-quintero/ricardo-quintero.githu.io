@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.3.3.2.2:1", "", "Diagrama de Contexto", "EARoot/EA3/EA3/EA2/EA2/EA81.htm", "180.png", "10", "0", "", "Use Case diagram0","{1B4B6C38-CDD6-4720-B408-7EA56F31233A}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:3", "", "CU000-Autentificacion en el Sistema", "EARoot/EA3/EA3/EA2/EA2/EA88.htm", "7.png", "E26", "0", "", "UseCase0","{3CBE59D0-5455-4158-8DAE-159D3BFA114F}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:4", "", "CU002-Realizar cálculo auxiliar", "EARoot/EA3/EA3/EA2/EA2/EA89.htm", "7.png", "E33", "0", "", "UseCase0","{D6055AC4-760A-4e86-B252-24F003BC4C68}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:5", "", "CU001-Procesar Venta", "EARoot/EA3/EA3/EA2/EA2/EA91.htm", "7.png", "E19", "0", "", "UseCase0","{825C2112-2AF4-47e2-99B1-3B54440F8B44}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:6", "", "SSD001-Happy Path", "EARoot/EA3/EA3/EA2/EA2/EA92.htm", "207.png", "E113", "E19", "", "Interaction0","{39DE5BD4-7C4C-449c-B48E-73DB0092E49A}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:2", "", "SSD001-Happy Path", "EARoot/EA3/EA3/EA2/EA2/EA83.htm", "185.png", "29", "E113", "", "Sequence diagram0","{A8106AE8-CD8E-4cde-A28F-C6ABD4FFD399}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:7", "", "", "EARoot/EA3/EA3/EA2/EA2/EA93.htm", "101.png", "E117", "E113", "", "InteractionFragment0","{0B881446-D272-4964-B62C-5DCBE799E283}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:8", "", ": System", "EARoot/EA3/EA3/EA2/EA2/EA94.htm", "25.png", "E116", "E113", "", "Object0","{BC5836DC-3130-41c7-B5D3-00795CF482D5}");
+tocTab[tocTab.length] = new Array("0.3.3.2.2:9", "", ": Cajero", "EARoot/EA3/EA3/EA2/EA2/EA95.htm", "57.png", "E114", "E113", "", "Sequence0","{93623DDE-BFEC-4225-971A-D5F1E199FFFD}");

@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.5:1", "", "Reglas de Negocio", "EARoot/EA3/EA5/EA117.htm", "188.png", "14", "0", "", "Custom diagram0","{AE756293-B8FF-4188-8663-E682077A9382}");
+tocTab[tocTab.length] = new Array("0.3.5.1", "1", "Computaciones", "EARoot/EA3/EA5/EA1/EA127.htm", "4.png", "", "", "{2B1663AB-F45B-4661-8123-177ADA80919C}", "Package");
+tocTab[tocTab.length] = new Array("0.3.5.2", "", "Habilitadores de Accion", "EARoot/EA3/EA5/EA2/EA130.htm", "4.png", "", "", "{62B5FF1A-3C71-4159-A902-F98E4B6E7B4B}", "Package");
+tocTab[tocTab.length] = new Array("0.3.5.3", "", "Hechos", "EARoot/EA3/EA5/EA3/EA131.htm", "4.png", "", "", "{82F90B91-2C0A-46a7-843B-B34332CEAD37}", "Package");
+tocTab[tocTab.length] = new Array("0.3.5.4", "", "Inferencias", "EARoot/EA3/EA5/EA4/EA132.htm", "4.png", "", "", "{F8355641-C660-4ea7-BCDA-C8CF1B0D493E}", "Package");
+tocTab[tocTab.length] = new Array("0.3.5.5", "", "Restricciones", "EARoot/EA3/EA5/EA5/EA133.htm", "4.png", "", "", "{2FB3BCC9-4D05-4555-B669-2F4D14A340F3}", "Package");

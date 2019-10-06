@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.4.2.2.1", "1", "Sales", "EARoot/EA4/EA2/EA2/EA1/EA198.htm", "4.png", "", "", "{44581D17-D184-44be-AF9E-68E0B8E6D5F3}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.2.2", "1", "Payments", "EARoot/EA4/EA2/EA2/EA2/EA208.htm", "4.png", "", "", "{194AA582-C31F-4b1b-8D51-393DE0CE0294}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.2.3", "", "Taxes", "EARoot/EA4/EA2/EA2/EA3/EA210.htm", "4.png", "", "", "{FD1AE2BE-6D0F-44f8-8501-F7C7CFC7C8F7}", "Package");

@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.7.2:1", "", "Red", "EARoot/EA7/EA2/EA383.htm", "179.png", "51", "0", "", "Deployment diagram0","{579CE1BE-C3FD-4dfc-8960-B97DD1A4980C}");
+tocTab[tocTab.length] = new Array("0.7.2:2", "", "«pc client» cliente Web", "EARoot/EA7/EA2/EA386.htm", "9.png", "E220", "0", "", "Node0","{25698450-6B64-4dc9-B40B-4099C82CD538}");
+tocTab[tocTab.length] = new Array("0.7.2:3", "", "«pc server» Servidor BD", "EARoot/EA7/EA2/EA387.htm", "9.png", "E222", "0", "", "Node0","{9EA5DB3E-DF39-4175-B2CD-E8CC049CA067}");
+tocTab[tocTab.length] = new Array("0.7.2:4", "", "«pc server» Servidor Web", "EARoot/EA7/EA2/EA388.htm", "9.png", "E221", "0", "", "Node0","{B6D94A4D-71CD-4f57-9DCC-177508E81EAB}");
+tocTab[tocTab.length] = new Array("0.7.2:5", "", "Navigator", "EARoot/EA7/EA2/EA389.htm", "192.png", "E223", "E220", "", "ExecutionEnvironment0","{7B524574-5755-4682-870E-2E3AB3379DFF}");
+tocTab[tocTab.length] = new Array("0.7.2:6", "", "Apache Server", "EARoot/EA7/EA2/EA390.htm", "192.png", "E224", "E221", "", "ExecutionEnvironment0","{A5DB7CFE-BC38-40d7-BA36-A4E8CEEF8E8E}");
+tocTab[tocTab.length] = new Array("0.7.2:7", "", "EJB Container", "EARoot/EA7/EA2/EA391.htm", "192.png", "E350", "E221", "", "ExecutionEnvironment0","{16204BD1-2F36-4b9f-AA00-0C4DD3ED26A9}");
+tocTab[tocTab.length] = new Array("0.7.2:8", "", "mySQL", "EARoot/EA7/EA2/EA392.htm", "192.png", "E225", "E222", "", "ExecutionEnvironment0","{7CAE6645-30CC-414a-9AE4-ABDAA094CCB4}");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.5.2.1:1", "", "EI-UI", "EARoot/EA5/EA2/EA1/EA338.htm", "182.png", "72", "0", "", "CompositeStructure diagram0","{79F85CCF-959B-488d-A525-93AFE4FD48BF}");
+tocTab[tocTab.length] = new Array("0.5.2.1:2", "", "JVentana", "EARoot/EA5/EA2/EA1/EA341.htm", "118.png", "E334", "0", "", "Part0","{ED94F0E6-AEFE-41fb-B46E-1897728826C4}");
+tocTab[tocTab.length] = new Array("0.5.2.1:3", "", "Servlet", "EARoot/EA5/EA2/EA1/EA342.htm", "118.png", "E335", "0", "", "Part0","{DB9933C1-88C6-423f-AD58-A75640523125}");

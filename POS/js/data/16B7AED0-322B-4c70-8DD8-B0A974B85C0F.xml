@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "Diagrama de Contexto-version DFD", "EARoot/EA3/EA2/EA44.htm", "188.png", "15", "0", "", "Custom diagram0","{69F64994-6E7C-4ccf-9486-3C5EFCFF7EC2}");
+tocTab[tocTab.length] = new Array("0.3.2:2", "", "«DFD_External» Banco", "EARoot/EA3/EA2/EA47.htm", "AAB1EBBD-8_DFD_External.png", "E36", "0", "", "Class0","{436C88FB-8978-4fcd-8FC1-E81D168B81CF}");
+tocTab[tocTab.length] = new Array("0.3.2:3", "", "«DFD_External» Cajero", "EARoot/EA3/EA2/EA48.htm", "AAB1EBBD-8_DFD_External.png", "E35", "0", "", "Class0","{37067B7E-3ACA-4933-A340-26B585AB6453}");
+tocTab[tocTab.length] = new Array("0.3.2:4", "", "«DFD_External» Cliente", "EARoot/EA3/EA2/EA49.htm", "AAB1EBBD-8_DFD_External.png", "E38", "0", "", "Class0","{C7345116-7F2E-44ad-A0BB-B4C6FD6B3279}");
+tocTab[tocTab.length] = new Array("0.3.2:5", "", "«DFD_External» Director General", "EARoot/EA3/EA2/EA50.htm", "AAB1EBBD-8_DFD_External.png", "E37", "0", "", "Class0","{F4FF9895-7397-42ba-884F-319F93DB09D4}");
+tocTab[tocTab.length] = new Array("0.3.2:6", "", "«DFD_Process» Sistema POS", "EARoot/EA3/EA2/EA51.htm", "AAB1EBBD-8_DFD_Process.png", "E34", "0", "", "Activity0","{25F40E24-1EDB-4617-B766-6E8686962BD5}");

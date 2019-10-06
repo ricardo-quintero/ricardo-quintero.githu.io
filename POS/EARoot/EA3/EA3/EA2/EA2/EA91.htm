@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CU001-Procesar Venta</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CU001-Procesar Venta", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">16/02/2011 10:44:56 a. m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">01/03/2011 10:35:18 a. m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">L00601039</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{825C2112-2AF4-47e2-99B1-3B54440F8B44}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA81.htm">Diagrama de Contexto</a>, <a href="../EA4/EA100.htm">De CU a Contratos</a>, <a href="../../../../EA4/EA1/EA4/EA173.htm">De CU a IU</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;&lt;u&gt;CU Breve:&#160;&#160;&lt;/u&gt;&lt;/b&gt;El Cajero registra las ventas del día y el Sistema calcula el total de la venta junto con sus impuestos. El Sistema, además, imprime el recibo que soporta la venta para el caso de devoluciones.&lt;br/&gt;&lt;b&gt;&lt;u&gt;&lt;br/&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;Scope:&lt;/u&gt;&lt;/b&gt; Nextgen POS application&lt;br/&gt;&lt;b&gt;&lt;u&gt;&lt;br/&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;Stakeholders e intereses&lt;/u&gt;&lt;/b&gt;&lt;b&gt;:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;&lt;b&gt;Cajero: &lt;/b&gt;Desea una entrada de datos exacta y rápida, que no existan errores de pago y que en caso de pérdidas de efectivo le sean deducidas de su salario.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Vendedor:&lt;/b&gt; Desea que sus comisones se actualicen.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;u&gt;Trigger:&lt;/u&gt;&lt;/b&gt; Este CU inicia cuando el cliente desea pagar los bienes y servicios en el POS&lt;br/&gt;</div>
+
+<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="ObjectSubTitle">
+			Related Diagrams:
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+</table>
+<p></p><table cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="ObjectSubTitle">
+			Related Elements:
+		</td>
+		<td>
+			<a href="../../../EA5/EA1/EA128.htm">«Bus-Rule» RN01-Se aplicará un descuento del 10% a todos los estudiantes del Tec</a>, <a href="../../../EA5/EA1/EA129.htm">«Bus-Rule» RN02-Se aplicará un descuento del 15% en compras mayores a 1000 pesos</a>
+		</td>
+	</tr>
+</table>
+<p></p>	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA76.htm">Bank</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink47" onclick="parent.toggleDiv('detailsDIVLink47','DetailsImageLink47')" />Details:
+							<div id="detailsDIVLink47" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA78.htm">Manager</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink48" onclick="parent.toggleDiv('detailsDIVLink48','DetailsImageLink48')" />Details:
+							<div id="detailsDIVLink48" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA77.htm">Cajero</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink49" onclick="parent.toggleDiv('detailsDIVLink49','DetailsImageLink49')" />Details:
+							<div id="detailsDIVLink49" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">El Cajero se ha identificado y autentificado</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints50" onclick="parent.toggleDiv('detailsDIVConstraints50','DetailsImageConstraints50')" />Details:
+							<div id="detailsDIVConstraints50" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">La Venta se ha guardado. El Impuesto se ha calculado correctamente. Los sistemas de Contabilidad e Inventarios han sido actualizados. Se han registrado las comisiones. El Recibo se ha generado. Las autorizaciones Pagos se han registrado</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints51" onclick="parent.toggleDiv('detailsDIVConstraints51','DetailsImageConstraints51')" />Details:
+							<div id="detailsDIVConstraints51" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Se han registrado los movimientos en la bitacora del Sistema</td>
+					<td width="10%" class="TableRow">Minimal Guarante</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints52" onclick="parent.toggleDiv('detailsDIVConstraints52','DetailsImageConstraints52')" />Details:
+							<div id="detailsDIVConstraints52" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Escenario Principal</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario53" onclick="parent.toggleDiv('detailsDIVScenario53','DetailsImageScenario53')" />Details:
+							<div id="detailsDIVScenario53" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;El Cliente llega al POS con bienes y servicios a pagar. El Cajero se &lt;a href=&quot;javascript:top.guidLink(&#39;{3CBE59D0-5455-4158-8DAE-159D3BFA114F}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;autentifica en el sistema&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;El &lt;a href=&quot;javascript:top.guidLink(&#39;{75993E9B-93B4-403c-B649-1AF5C658DF55}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Cajero&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; inicia una nueva venta.&lt;/li&gt;&lt;li&gt;El &lt;a href=&quot;javascript:top.guidLink(&#39;{75993E9B-93B4-403c-B649-1AF5C658DF55}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Cajero&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; ingresa el código del producto.&lt;/li&gt;&lt;li&gt;El Sistema registra&#160;&#160;la línea de detalle y presenta la descripción del producto, el precio y el total. El Precio se calcula a partir de ciertas reglas de negocio (&lt;a href=&quot;javascript:top.guidLink(&#39;{4558CBA1-5028-4d00-A08C-327961D937BF}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;RN01&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;, &lt;a href=&quot;javascript:top.guidLink(&#39;{64D989E3-49CC-43dd-BC09-C9762E49AB85}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;RN02&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;El Sistema presenta el total con impuestos calculados.&lt;/li&gt;&lt;li&gt;El Cajero le pide al cliente el total y le pide al cliente el pago.&lt;/li&gt;&lt;li&gt;El Cliente paga y el Sistema maneja el pago.&lt;/li&gt;&lt;li&gt;El Sistema registra la venta completa y envia la información de pago a los sistemas externos de Contabilidad e Inventarios.&lt;/li&gt;&lt;li&gt;El Sistema muestra el recibo.&lt;/li&gt;&lt;li&gt;El cliente sale&#160;&#160;con el recibo y los bienes.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario53" onclick="parent.toggleDiv('stepDIVScenario53','StepImageScenario53')" />Steps:
+							<div id="stepDIVScenario53" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El Cliente llega al POS con bienes y servicios a pagar.&lt;br/&gt; <br />2. El Cajero inicia una nueva venta.&lt;br/&gt; <br />3. El Cajero ingresa el código del producto.&lt;br/&gt; <br />4. El Sistema registra&#160;&#160;la línea de detalle y presenta la descripción del producto, el precio y el total. El Precio se calcula a partir de ciertas reglas de negocio RN01-Se aplicará un descuento del 10% a todos los estudiantes del Tec;RN02-Se aplicará un descuento del 15% en compras mayores a 1000 pesos&lt;br/&gt; <br />5. El Sistema presenta el total con impuestos calculados.<br />&lt;br/&gt; <br />6. El Cajero le pide al cliente el total y le pide al cliente el pago.&lt;br/&gt; <br />7. El Cliente paga y el Sistema maneja el pago.&lt;br/&gt; <br />8. El Sistema registra la venta completa y envia la información de pago a los sistemas externos de Contabilidad e Inventarios.<br />&lt;br/&gt; <br />9. El Sistema muestra el recibo.<br />&lt;br/&gt; <br />10. El cliente sale&#160;&#160;con el recibo y los bienes.<br />&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario54" onclick="parent.toggleDiv('detailsDIVScenario54','DetailsImageScenario54')" />Exceptions:				<div id="detailsDIVScenario54" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1a. 1a. El cliente o el Gerente indica que continuará una venta suspendida (at End)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">*a. En cualquier momento el gerente solicita redefinir una operacion</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario56" onclick="parent.toggleDiv('detailsDIVScenario56','DetailsImageScenario56')" />Details:
+							<div id="detailsDIVScenario56" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;El Sistema entra en Modo autorizado de Gerente.&lt;/li&gt;&lt;li&gt;El Gerente o el Cajero realiza una operación en Modo-autorizado de Gerente.&lt;/li&gt;&lt;li&gt;El Sistema se revierte a Modo-autorizado de Cajero&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">1a. El cliente o el Gerente indica que continuará una venta suspendida</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario57" onclick="parent.toggleDiv('detailsDIVScenario57','DetailsImageScenario57')" />Details:
+							<div id="detailsDIVScenario57" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;El cajero&#160;&#160;realiza una operación de resume y captura el codigo su ID para recuperar la venta.&lt;/li&gt;&lt;li&gt;El Sistema muestra el estado de la venta recuperada, con su subtotal.&lt;br/&gt;2a. La venta no se encuentra.&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. El Sistema señala el error al cajero.&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. El Cajero probablemente inicia una nueva venta y recaptura todos los productos.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario57" onclick="parent.toggleDiv('stepDIVScenario57','StepImageScenario57')" />Steps:
+							<div id="stepDIVScenario57" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El Cajero reinicia la venta ...&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA61.htm">«Feature» FE01-Registro de las ventas de la tienda</a></td>
+					<td width="10%" class="TableRow" valign="top">Feature</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA4/EA1/EA2/EA156.htm">Procesar Venta</a></td>
+					<td width="10%" class="TableRow" valign="top">Screen</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA89.htm">CU002-Realizar cálculo auxiliar</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Extends</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA99.htm">«Contract» C02-enterItem</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA61.htm">«Feature» FE01-Registro de las ventas de la tienda</a></td>
+					<td width="10%" class="TableRow" valign="top">Feature</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA88.htm">CU000-Autentificacion en el Sistema</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Includes</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

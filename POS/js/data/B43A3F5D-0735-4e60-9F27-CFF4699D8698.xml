@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.2.1.1:1", "", "Objetos del Dominio", "EARoot/EA2/EA1/EA1/EA13.htm", "175.png", "28", "0", "", "Logical diagram0","{1DFA2E26-3018-4a00-BA8A-0E759B76D9A7}");
+tocTab[tocTab.length] = new Array("0.2.1.1:2", "", "Cashier", "EARoot/EA2/EA1/EA1/EA16.htm", "5.png", "E104", "0", "", "Class0","{41A1DE48-DA6C-45f5-A621-70989ABFB6E0}");
+tocTab[tocTab.length] = new Array("0.2.1.1:3", "", "CashPayment", "EARoot/EA2/EA1/EA1/EA17.htm", "5.png", "E110", "0", "", "Class0","{4E23A5B7-2E0E-4567-8638-2761268354D0}");
+tocTab[tocTab.length] = new Array("0.2.1.1:4", "", "Customer", "EARoot/EA2/EA1/EA1/EA18.htm", "5.png", "E105", "0", "", "Class0","{8C4CB7D0-4385-4df9-A546-E72BF99F9BD5}");
+tocTab[tocTab.length] = new Array("0.2.1.1:5", "", "Item", "EARoot/EA2/EA1/EA1/EA19.htm", "5.png", "E100", "0", "", "Class0","{85852D44-D52B-43f9-80F9-73BAC0FF97B8}");
+tocTab[tocTab.length] = new Array("0.2.1.1:6", "", "Ledger", "EARoot/EA2/EA1/EA1/EA20.htm", "5.png", "E112", "0", "", "Class0","{D4A6B24C-E325-40db-924D-D4028ECC4716}");
+tocTab[tocTab.length] = new Array("0.2.1.1:7", "", "Manager", "EARoot/EA2/EA1/EA1/EA21.htm", "5.png", "E106", "0", "", "Class0","{DCC17376-B767-4f9d-B349-F030AB31FE52}");
+tocTab[tocTab.length] = new Array("0.2.1.1:8", "", "Payment", "EARoot/EA2/EA1/EA1/EA22.htm", "5.png", "E107", "0", "", "Class0","{6434AD75-F361-48d5-B1B4-07C9B2F54603}");
+tocTab[tocTab.length] = new Array("0.2.1.1:9", "", "POS", "EARoot/EA2/EA1/EA1/EA23.htm", "5.png", "E99", "0", "", "Class0","{A5FFA5CB-9BDE-46fc-9D2B-3279F16AC5A4}");
+tocTab[tocTab.length] = new Array("0.2.1.1:10", "", "ProductCatalog", "EARoot/EA2/EA1/EA1/EA24.htm", "5.png", "E108", "0", "", "Class0","{E77D90EF-4DD2-43dc-A87D-D89E0AE8C87C}");
+tocTab[tocTab.length] = new Array("0.2.1.1:11", "", "ProductSpecification", "EARoot/EA2/EA1/EA1/EA25.htm", "5.png", "E109", "0", "", "Class0","{55639FA5-16F7-41d3-9DC6-E87F1CC4C7FD}");
+tocTab[tocTab.length] = new Array("0.2.1.1:12", "", "Register", "EARoot/EA2/EA1/EA1/EA26.htm", "5.png", "E111", "0", "", "Class0","{23186F32-5486-42c2-B89C-C98C4304B8C1}");
+tocTab[tocTab.length] = new Array("0.2.1.1:13", "", "Sale", "EARoot/EA2/EA1/EA1/EA27.htm", "5.png", "E102", "0", "", "Class0","{38EF6053-7605-46a6-9AC8-C857CB080F8F}");
+tocTab[tocTab.length] = new Array("0.2.1.1:14", "", "SalesLineItem", "EARoot/EA2/EA1/EA1/EA28.htm", "5.png", "E103", "0", "", "Class0","{D05D5BC3-C9FE-4774-BD5D-8CE94A160C14}");
+tocTab[tocTab.length] = new Array("0.2.1.1:15", "", "Store", "EARoot/EA2/EA1/EA1/EA29.htm", "5.png", "E101", "0", "", "Class0","{0C2BE41D-56F1-46bc-A2A5-1E73FBEFE364}");

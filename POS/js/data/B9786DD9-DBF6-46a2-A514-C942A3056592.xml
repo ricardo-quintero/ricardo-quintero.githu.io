@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.3.3.2.1:1", "", "Actores", "EARoot/EA3/EA3/EA2/EA1/EA69.htm", "180.png", "9", "0", "", "Use Case diagram0","{5E52B4B5-C9AD-428c-BDF3-FBA373D49FF8}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:2", "", "Lista Actor-Objetivo", "EARoot/EA3/EA3/EA2/EA1/EA71.htm", "188.png", "13", "0", "", "Custom diagram0","{99380AF7-5272-4e17-8669-6D8D51AB7E07}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:3", "", "System", "EARoot/EA3/EA3/EA2/EA1/EA75.htm", "5.png", "E115", "0", "", "Class0","{F546BEAF-AF97-463f-86D9-6BE65B43DEE4}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:4", "", "Bank", "EARoot/EA3/EA3/EA2/EA1/EA76.htm", "6.png", "E23", "0", "", "Actor0","{5694794A-BC7D-4536-BD39-93BD152B456E}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:5", "", "Cajero", "EARoot/EA3/EA3/EA2/EA1/EA77.htm", "6.png", "E21", "0", "", "Actor0","{75993E9B-93B4-403c-B649-1AF5C658DF55}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:6", "", "Manager", "EARoot/EA3/EA3/EA2/EA1/EA78.htm", "6.png", "E22", "0", "", "Actor0","{04C8C5FE-ADBB-4a62-AD29-501DEEC61001}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:7", "", "«document» Lista Actor-Objetivo", "EARoot/EA3/EA3/EA2/EA1/EA79.htm", "82.png", "E20", "0", "", "Artifact0","{1539B48A-1161-4b65-A02D-411E095BCB51}");
+tocTab[tocTab.length] = new Array("0.3.3.2.1:8", "", "Usuario POS", "EARoot/EA3/EA3/EA2/EA1/EA80.htm", "6.png", "E24", "0", "", "Actor0","{AE2AF5E4-9406-43a0-B9A8-C74FDEA00B93}");
